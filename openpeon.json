@@ -9,34 +9,44 @@
   "categories": {
     "session.start": {
       "sounds": [
-        { "file": "sounds/start_1.mp3", "label": "Greeting 1" },
-        { "file": "sounds/start_2.mp3", "label": "Greeting 2" }
+        { "file": "sounds/ab_add_player_01.wav", "label": "Praise be" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/ab_willattack_01.wav", "label": "Agreed" },
+        { "file": "sounds/ab_siege_01.wav", "label": "Begin the siege" }
       ]
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/complete_1.mp3", "label": "Done 1" },
-        { "file": "sounds/complete_2.mp3", "label": "Done 2" }
-      ]
-    },
-    "input.required": {
-      "sounds": [
-        { "file": "sounds/permission_1.mp3", "label": "Needs attention" }
+        { "file": "sounds/ab_vict_01.wav", "label": "Victory for me" },
+        { "file": "sounds/ab_boast_01.wav", "label": "Watch and learn" },
+        { "file": "sounds/ab_vict_04.wav", "label": "Going to rule this land" }
       ]
     },
     "task.error": {
       "sounds": [
-        { "file": "sounds/error_1.mp3", "label": "Error" }
+        { "file": "sounds/ab_anger_01.wav", "label": "My troops fail me" },
+        { "file": "sounds/ab_anger_02.wav", "label": "You will pay for that" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/ab_help_01.wav", "label": "Send help" },
+        { "file": "sounds/ab_req_01.wav", "label": "Short of materials" }
       ]
     },
     "resource.limit": {
       "sounds": [
-        { "file": "sounds/limit_1.mp3", "label": "Limit hit" }
+        { "file": "sounds/ab_notsent_01.wav", "label": "Not made of gold" },
+        { "file": "sounds/ab_nohelp_01.wav", "label": "We will pray for you" }
       ]
     },
     "user.spam": {
       "sounds": [
-        { "file": "sounds/spam_1.mp3", "label": "Too many prompts" }
+        { "file": "sounds/ab_noattack_02.wav", "label": "Brothers are meditating" },
+        { "file": "sounds/ab_kick_player_01.wav", "label": "No!" }
       ]
     }
   }
